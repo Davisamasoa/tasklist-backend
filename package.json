@@ -1,0 +1,22 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "taskList backend",
+	"main": "server.js",
+	"author": "Davi Samuel",
+	"license": "MIT",
+	"dependencies": {
+		"bcrypt": "^5.1.0",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"jsonwebtoken": "^9.0.0",
+		"mongoose": "^6.9.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	},
+	"scripts": {
+		"dev": "nodemon",
+		"start": "node server.js"
+	}
+}
